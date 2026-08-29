@@ -40,15 +40,15 @@ Tick them off as you go; this table is the map of your work:
 
 | Notebook | Assignment | Status |
 |---|---|---|
-| `notebooks/w01_research_question.ipynb` | ML-02 | ☐ |
-| `notebooks/w02_ml_task_framing.ipynb` | ML-03 | ☐ |
-| `notebooks/w03_data_contract.ipynb` | ML-04 | ☐ |
-| `notebooks/w03_feature_leakage_check.ipynb` | ML-05 | ☐ |
+| `notebooks/w01_research_question.ipynb` | ML-02 | x |
+| `notebooks/w02_ml_task_framing.ipynb` | ML-03 | x |
+| `notebooks/w03_data_contract.ipynb` | ML-04 |  |
+| `notebooks/w03_feature_leakage_check.ipynb` | ML-05 | x |
 | `notebooks/w04_signal_audit.ipynb` | ML-06 | ☐ |
-| `notebooks/w04_baseline_score.ipynb` | ML-07 | ☐ |
-| `notebooks/w05_model.ipynb` | ML-08 | ☐ |
-| `notebooks/w06_validation_audit.ipynb` | ML-09 | ☐ |
-| `notebooks/w07_action_playbook.ipynb` | ML-10 | ☐ |
-| `notebooks/capstone.ipynb` | ML-11 (the paper mirrors it) | ☐ |
+| `notebooks/w04_baseline_score.ipynb` | ML-07 | x |
+| `notebooks/w05_model.ipynb` | ML-08 | x |
+| `notebooks/w06_validation_audit.ipynb` | ML-09 | x |
+| `notebooks/w07_action_playbook.ipynb` | ML-10 | x |
+| `notebooks/capstone.ipynb` | ML-11 (the paper mirrors it) | x |
 
 When your paper is deployed, put its exact URL in `../submission/paper_url.txt` (one line).

@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>capstone(2)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
+<title>capstone</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script>
 (function() {
   function addWidgetsRenderer() {
     var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
@@ -7941,9 +7941,9 @@ As generative AI reshapes search, marketing teams are racing to optimize for LLM
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jupyter-widgets jp-OutputArea-output" id="1e5ce796-bfd9-4977-9c6f-fb451d9d8767" tabindex="0">
+<div class="jupyter-widgets jp-OutputArea-output" id="c3ef35e9-e489-4d37-9009-9b37b59aabe7" tabindex="0">
 <script type="text/javascript">
-var element = document.getElementById('1e5ce796-bfd9-4977-9c6f-fb451d9d8767');
+var element = document.getElementById('c3ef35e9-e489-4d37-9009-9b37b59aabe7');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"version_major": 2, "version_minor": 0, "model_id": "65675362f28a4142a8c29b3d93173ca1"}
@@ -8246,6 +8246,31 @@ The notebooks reproducing these artifacts and evaluating the models can be found
 | client_2094c6eb080311d5 | content_2427c666edc9187d |       1.0000 | REVIEW_FOR_AI_SNIPPET_OPTIMIZATION | HIGH_DEPTH_AND_ENGAGEMENT |         2978 |             476.0000 |
 </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=whUfbfGVdb2-">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="8.-Showcase-Demo-&amp;-Shareable-Cuts">8. Showcase Demo &amp; Shareable Cuts<a class="anchor-link" href="#8.-Showcase-Demo-&amp;-Shareable-Cuts">¶</a></h2><h3 id="5-Minute-Demo-Outline">5-Minute Demo Outline<a class="anchor-link" href="#5-Minute-Demo-Outline">¶</a></h3><ul>
+<li><strong>The Question (1 min):</strong> Does traditional SEO authority drive AI search citations? Content teams are currently wasting hours link-building to capture LLM traffic based on this legacy assumption.</li>
+<li><strong>The Method (1 min):</strong> I audited 176,568 active web pages from a 79M-row FlyRank search dataset. To prevent the model from lazily memorizing high-authority domains, I forced a GroupShuffleSplit on the client ID and dropped leaky proxies like <code>sessions_ai</code>.</li>
+<li><strong>The Chart (1 min):</strong> <em>Display the Logistic Regression Feature Weights table.</em> Highlight that <code>word_count_log</code> holds a massive positive weight (7.44), while traditional CTR and domain proxies offer almost no isolated predictive value.</li>
+<li><strong>The Honest Result (1 min):</strong> Structural depth and active engagement are strictly necessary, but entirely insufficient to guarantee an AI citation (Honest Grouped AUC: 0.5403). LLM retrieval is a semantic matching problem, not a structural SEO problem.</li>
+<li><strong>The Recommendation (1 min):</strong> Content teams must immediately abandon traditional link-building as a rescue metric for AI search. The playbook must pivot entirely to expanding structural depth and matching vertical-specific user intent.</li>
+</ul>
+<hr/>
+<h3 id="Social-Post-(LinkedIn/Twitter)">Social Post (LinkedIn/Twitter)<a class="anchor-link" href="#Social-Post-(LinkedIn/Twitter)">¶</a></h3><p>Is traditional SEO dead for AI search?</p>
+<p>I audited 176,568 web pages using 79 million rows of production search data to find out what actually drives LLM citations. By training a Logistic Regression model with grouped cross-validation to explicitly block domain-level memorization, the data revealed a harsh reality for content teams: traditional authority metrics and backlinks are domain-level noise.</p>
+<p>Structural depth and active engagement are mathematically necessary to capture AI traffic, but completely insufficient to guarantee it (AUC 0.5403).</p>
+<p><strong>The takeaway:</strong> Stop wasting hours building backlinks to capture AI traffic. Pivot your resources to semantic depth and vertical-specific user intent.</p>
+<p>Read the full methodology and feature breakdown here: <code>https://quentalheitor.github.io/Flyrank_Heitor_Quental_ML_Track/</code></p>
+<hr/>
+<h3 id="Employer-3-Sentence-Summary">Employer 3-Sentence Summary<a class="anchor-link" href="#Employer-3-Sentence-Summary">¶</a></h3><p>I built a logistic regression ranking model on a 79-million-row production search dataset to identify the structural drivers of LLM search citations. By applying grouped cross-validation to isolate domain-level noise and explicitly stripping leaky proxies, the model empirically proved that traditional SEO authority metrics fail to predict AI referral traffic. This analysis provides content strategy teams with a rigorous framework to halt arbitrary link-building campaigns and reallocate resources toward semantic depth and active user engagement.</p>
 </div>
 </div>
 </div>
